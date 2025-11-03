@@ -1,4 +1,4 @@
-En este reporte hablare sobre los resultados obtenidos en las pruebas de los diferentes algoritmos de busqueda aplicados al entorno Frozen Lake (Random, BFS, DFS, DLS, UCS y A*). Las caracteristicas del entorno fueron:
+En este reporte hablare sobre los resultados obtenidos en las pruebas de los diferentes algoritmos de busqueda aplicados al entorno Frozen Lake (Random, BFS, DFS, DLS, UCS y A*(con una heuristica euclidiana)). Las caracteristicas del entorno fueron:
 . Mapa Random (inicio y final random)
 . Probabilidad de "Hold" 0.08
 . Slippery = False
