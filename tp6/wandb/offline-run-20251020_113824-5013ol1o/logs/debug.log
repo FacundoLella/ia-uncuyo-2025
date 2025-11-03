@@ -1,0 +1,26 @@
+2025-10-20 11:38:25,001 INFO    MainThread:12384 [wandb_setup.py:_flush():81] Current SDK version is 0.22.2
+2025-10-20 11:38:25,001 INFO    MainThread:12384 [wandb_setup.py:_flush():81] Configure stats pid to 12384
+2025-10-20 11:38:25,001 INFO    MainThread:12384 [wandb_setup.py:_flush():81] Loading settings from /home/f4cul3ll4/.config/wandb/settings
+2025-10-20 11:38:25,001 INFO    MainThread:12384 [wandb_setup.py:_flush():81] Loading settings from /home/f4cul3ll4/Escritorio/Repo-IA1/ia-uncuyo-2025/tp6/wandb/settings
+2025-10-20 11:38:25,001 INFO    MainThread:12384 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-10-20 11:38:25,001 INFO    MainThread:12384 [wandb_init.py:setup_run_log_directory():705] Logging user logs to /home/f4cul3ll4/Escritorio/Repo-IA1/ia-uncuyo-2025/tp6/wandb/offline-run-20251020_113824-5013ol1o/logs/debug.log
+2025-10-20 11:38:25,001 INFO    MainThread:12384 [wandb_init.py:setup_run_log_directory():706] Logging internal logs to /home/f4cul3ll4/Escritorio/Repo-IA1/ia-uncuyo-2025/tp6/wandb/offline-run-20251020_113824-5013ol1o/logs/debug-internal.log
+2025-10-20 11:38:25,001 INFO    MainThread:12384 [wandb_init.py:init():832] calling init triggers
+2025-10-20 11:38:25,002 INFO    MainThread:12384 [wandb_init.py:init():837] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-10-20 11:38:25,002 INFO    MainThread:12384 [wandb_init.py:init():880] starting backend
+2025-10-20 11:38:25,214 INFO    MainThread:12384 [wandb_init.py:init():883] sending inform_init request
+2025-10-20 11:38:25,220 INFO    MainThread:12384 [wandb_init.py:init():891] backend started and connected
+2025-10-20 11:38:25,222 INFO    MainThread:12384 [wandb_init.py:init():961] updated telemetry
+2025-10-20 11:38:25,228 INFO    MainThread:12384 [wandb_init.py:init():985] communicating run to backend with 90.0 second timeout
+2025-10-20 11:38:25,348 INFO    MainThread:12384 [wandb_init.py:init():1036] starting run threads in backend
+2025-10-20 11:38:25,397 INFO    MainThread:12384 [wandb_run.py:_console_start():2509] atexit reg
+2025-10-20 11:38:25,397 INFO    MainThread:12384 [wandb_run.py:_redirect():2357] redirect: wrap_raw
+2025-10-20 11:38:25,397 INFO    MainThread:12384 [wandb_run.py:_redirect():2426] Wrapping output streams.
+2025-10-20 11:38:25,397 INFO    MainThread:12384 [wandb_run.py:_redirect():2449] Redirects installed.
+2025-10-20 11:38:25,399 INFO    MainThread:12384 [wandb_init.py:init():1076] run started, returning control to user process
+2025-10-20 11:38:25,401 INFO    MainThread:12384 [wandb_run.py:_config_callback():1392] config_cb None None {'alpha': 0.1, 'epsilon_start': 0.9, 'epsilon_end': 0.1, 'epsilon_max_episodes': 8000, 'gamma': 0.9, 'episodes': 35, 'test_each': 1000, 'test_for': 250, 'testing': False, 'experiment_name': 'Training and Eval of Q-learning Agent', 'notes': 'This is an evaluation'}
+2025-10-20 11:38:25,409 INFO    MainThread:12384 [wandb_run.py:_config_callback():1392] config_cb None None {'netsecenv_commit': '3cdef494a208bf7245a5ca519589241154781b7f', 'agents_commit': '3cdef494a208bf7245a5ca519589241154781b7f'}
+2025-10-20 11:38:25,410 INFO    MainThread:12384 [wandb_run.py:_config_callback():1392] config_cb None None {'env_conf_path': './env/netsecenv_conf.yaml'}
+2025-10-20 12:54:54,963 INFO    wandb-AsyncioManager-main:12384 [service_client.py:_forward_responses():80] Reached EOF.
+2025-10-20 12:54:54,963 INFO    wandb-AsyncioManager-main:12384 [mailbox.py:close():137] Closing mailbox, abandoning 0 handles.

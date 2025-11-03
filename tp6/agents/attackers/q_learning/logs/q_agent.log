@@ -1,0 +1,10 @@
+17:33:00 QAgent INFO Agent created
+17:33:00 QAgent INFO Registering agent as Attacker
+17:33:02 QAgent ERROR Exception in register(): [Errno 104] Connection reset by peer
+17:33:04 QAgent INFO Using commits. NetSecEnv: 3cdef494a208bf7245a5ca519589241154781b7f
+. Agents: 3cdef494a208bf7245a5ca519589241154781b7f
+
+17:33:04 QAgent WARNING Environment config file not found: ./env/netsecenv_conf.yaml
+17:33:04 QAgent INFO Epsilon Start: 0.9
+17:33:04 QAgent INFO Epsilon End: 0.1
+17:33:04 QAgent INFO Epsilon Max Episodes: 8000
