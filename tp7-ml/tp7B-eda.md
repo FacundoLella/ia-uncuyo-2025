@@ -18,13 +18,13 @@ por estas razones no podria decir que hay una especie mas peligrosa que la otra.
 
 - HISTROGRAMA DE FRECUENCIA PARA LA VARIABLE CIRC_TRONCO_CM
   
-![HISTOGRAMA1](images/a_histograma_circ_tronco_cm_bins)
+![HISTOGRAMA1](images/a_histograma_circ_tronco_cm_bins.png)
 
 - HISTROGRAMA DE FRECUENCIA PARA LA VARIABLE INCLINACION_PELIGROSA
   
-![HISTOGRAMA2](images/b_histograma_no_peligrosos_bins)
+![HISTOGRAMA2](images/b_histograma_no_peligrosos_bins.png)
 
-![HISTOGRAMA3](images/b_histograma_peligrosos_bins)
+![HISTOGRAMA3](images/b_histograma_peligrosos_bins.png)
 
 Se puede ver una clara tendencia a que mientras mayor el tamaño del tronco mas peligrosos.
 Para la creacion del arbolado-mendoza-dataset-circ_tronco_cm-train.csv
