@@ -1,19 +1,30 @@
 -CLASIFICADORES RESULTADOS-
  - RANDOM -
-MATRI CONFUSION
-```{r}
-knitr::kable(read.csv("data/matriz_confusion_random_classifier.csv"))
-```
+MATRIZ CONFUSION
+
+|            | 1 = Sí | 0 = No |
+| ---------- | :----: | :----: |
+| **1 = Sí** |   383  |  2920  |
+| **0 = No** |   329  |  2751  |
+
 METRICAS
-```{r}
-knitr::kable(read.csv("data/metricas_random_classifier.csv"))
-```
+| Accuracy | Precision | Sensitivity | Specificity |
+| :------: | :-------: | :---------: | :---------: |
+|  0.49099 |  0.11596  |   0.53792   |   0.48510   |
+
+
  - BIGGERCLASS -
-MATRI CONFUSION
-```{r}
-knitr::kable(read.csv("data/matriz_confusion_biggerclass_classifier.csv"))
-```
+MATRIZ CONFUSION
+|            | 1 = Sí | 0 = No |
+| ---------- | :----: | :----: |
+| **1 = Sí** |    0   |    0   |
+| **0 = No** |   712  |  5671  |
+
+
 METRICAS
-```{r}
-knitr::kable(read.csv("data/metricas_biggerclass_classifier.csv"))
-```
+
+| Accuracy | Precision | Sensitivity | Specificity |
+| :------: | :-------: | :---------: | :---------: |
+|  0.8885  |     NA    |      0      |      1      |
+
+
