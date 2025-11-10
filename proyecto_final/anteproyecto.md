@@ -67,22 +67,6 @@ El uso de IA, y no de programación tradicional, se justifica en que **el espaci
 | 9 | Redacción del informe final con resultados y conclusiones. | 3 días |
 
 ---
-
-## **Cronograma estimado (Gantt)**
-
-```text
-Semanas →  1  2  3  4  5  6  7  8
-1. Bibliografía         ████
-2. Datos                ████
-3. Diseño entorno          ████
-4. Implementación entorno    ████
-5. Q-Learning                  ████
-6. Recompensa                   ██
-7. Entrenamiento                   ███
-8. Validación                        ██
-10. Informe final                      ██
-
-```
 Referencias
 
 FastF1: API de análisis de datos de Fórmula 1 — https://docs.fastf1.dev
