@@ -35,8 +35,8 @@ Unidos. Para cada una de las empresas se registran las ganancias, el numero de e
 la industria y el salario del director ejecutivo. Se tiene interes en comprender que factores
 afectan el salario de los directores ejecutivos.
 
-. En este caso se intenta inferir si un factor afecta o no el salario de los directores ejecutivos.
-. p (predictores): 4 -> Ganancias, numero de empleados, la industria y el salario del director ejecutivo
+. En este caso se intenta inferir si un factor afecta o no el salario de los directores ejecutivos, se trata de un problema de regresion.
+. p (predictores): 3 -> Ganancias, numero de empleados, la industria y el salario del director ejecutivo
 . n (observaciones): 500
 
 
@@ -45,7 +45,7 @@ Se recolectan datos de 20 productos similares que fueron lanzados previamente. P
 producto se ha registrado si fue un exito o un fracaso, el precio cobrado por el producto,
 el presupuesto de marketing, el precio de la competencia, y otras diez variables.
 
-. Se intenta inferir si un producto es un fracasa o un exito.
+. Se intenta inferir si un producto es un fracasa o un exito, se trata de un problema de clasificacion.
 . p (predictores): 13 -> precio cobrado por producto, presupuesto de marketing, precio competencia, otras diez variables.
 . n (observaciones): 20
 
@@ -56,13 +56,13 @@ semanalmente durante todo el 2021. Para cada semana se registran el % de cambio 
 USD/Euro, el % de cambio en el mercado estadounidense, el % de cambio en el mercado
 britanico, y el % de cambio en el mercado aleman
 
-. Se quiere predecir el % de cambio en el tipo de cambio USD/EURO.
-. p (predictores): 4 % de cambio de USD/EURO, de cambio en el mercado estadounidense, de cambio en el mercado britanico y en el mercado aleman
+. Se quiere predecir el % de cambio en el tipo de cambio USD/EURO, se trata de un problema de regresion.
+. p (predictores): 3 % de cambio de USD/EURO, de cambio en el mercado estadounidense, de cambio en el mercado britanico y en el mercado aleman
 . n (observaciones): Si cada semana obtenian una observacion entonces en el año obtenian 52 observaciones.
 
 3. ¿Cuales son las ventajas y desventajas de un enfoque muy flexible (versus uno menos flexible)
 para la regresion o clasificacion? ¿Bajo que circunstancias podrıa preferirse un enfoque mas
-flexible a uno menos flexible? ¿Cu´ando podrıa preferirse un enfoque menos flexible?
+flexible a uno menos flexible? ¿Cuando podrıa preferirse un enfoque menos flexible?
 - Ventajas-
 . Menor Sesgo: son mejores para describir la relaciones no lineales o complejas.
 . Con gran volumen de observaciones pueden mejorar sus estimaciones.
