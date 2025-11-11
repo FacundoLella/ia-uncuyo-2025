@@ -6,6 +6,7 @@ Resultados del Trabajo Practico N°4 - Busquedas Locales. Algoritmos utilizados
   #Si encuentra una solucion (fitness = 0)
   #Si exploro mas de 1000 estados
   #Si rechazo 30 estados consecutivos
+  #Scheduler Exponencial : t = t*0.95
   
 - HC = Hill Climbing Puro
   
